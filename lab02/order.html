@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Online Orders and Payments</title>
+</head>
+
+<body>
+
+    <h2>Online Orders and Payments</h2>
+
+    <form action="process-order.php" method="post">
+
+        <table>
+
+            <tr>
+                <td colspan="2">
+                    <h3>Billing Information</h3>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="name">Full Name:</label></td>
+                <td><input type="text" id="name" name="name" required /></td>
+            </tr>
+
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><input type="text" id="address" name="address" required /></td>
+            </tr>
+
+            <tr>
+                <td><input type="email" id="email" name="email" required /></td>
+                <td><label for="email">Email:</label></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <h3>Order Details</h3>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="product">Select Product:</label></td>
+                <td>
+                    <select id="product" name="product" required>
+                        <option value="product1">Product 1</option>
+                        <option value="product2">Product 2</option>
+                        <option value="product3">Product 3</option>
+                        <option value="product4">Product 4</option>
+                    </select>
+                    <!--More products-->
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="quantity">Quantity:</label></td>
+                <td>
+                    <input type="number" id="quantity" name="quantity" min="1" required>
+                </td>
+            </tr>
+
+        

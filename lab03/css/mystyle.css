@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@500;600&family=IBM+Plex+Sans+Thai+Looped&family=Mitr&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+
+body {
+    font-family: Mitr;
+    background-color: rgb(230, 230, 140);
+}
+.main{
+    padding: 100px;
+    margin: auto;
+    width: 50%;
+}
+.order {
+    font-family: Mitr;
+    background-color: rgb(255, 255, 255);
+}
+.blog {
+    font-family: Athiti;
+    background-color: rgb(255, 255, 255);
+}
+.web01 {
+    font-family: Athiti;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+}
+.web02 {
+    font-family: Athiti;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+}
+
+.tableOrder {
+    border-collapse: collapse;
+}
+
+.timetable{
+    text-align: center;
+}
+
+h1 {
+    color: rgb(88, 75, 52);
+    
+}
+
+.aboutme {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 40%; 
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    border-spacing: 15px;
+}
+table {
+    width: 100%;
+}
+td.has-text {
+    background-color: rgb(255, 204, 181);
+}
+
+
