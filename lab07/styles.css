@@ -8,7 +8,7 @@ body {
 h1 {
     color: #333;
     font-size: 24px;
-    background-color: #bbffb2;
+    background-color: #ffe0b2;
     padding: 15px;
     border-radius: 5px;
     color: rgb(0,0,0);
@@ -49,7 +49,7 @@ input[type="text"] {
 
 button {
     padding: 12px 24px;
-    background-color: #ffaced;
+    background-color: #acd3ff;
     color: white;
     border: none;
     border-radius: 8px;
