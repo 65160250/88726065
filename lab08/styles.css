@@ -1,0 +1,13 @@
+body {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+}
+
+#book_header {
+    background-color: rgb(144, 245, 157);
+    font-size: 20px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 10px solid;
+}
